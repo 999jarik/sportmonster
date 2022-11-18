@@ -1,3 +1,6 @@
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #24252B;
+}
 .wrap {
     max-width: 1180px;
     margin: 0 auto;
@@ -73,8 +76,9 @@
 
 /* Main styles start */
 .main {
+    min-height: 900px;
     margin-top: -4px;
-    background: url(../img/background.png);
+    background: url(../img/background_main.png);
     background-size: cover;
 }
 .main__content {
@@ -122,3 +126,44 @@
     color: #fff;
 }
 /* Main styles end */
+
+/* About styles start */
+.about {
+    min-height: 710px;
+    background: url(../img/background_about.png);
+}
+.about__title {
+    padding-top: 230px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+.about__subtitle {
+    padding: 30px 100px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.about__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__link-item {
+    display: flex;
+    align-items: center;
+    color: #FF1A05;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+.about__link-item span {
+    margin-right: 5px;
+}
+.about__link-item:hover, .about__link-item:focus {
+    padding-left: 20px;
+}
+/* About styles end */
