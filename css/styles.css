@@ -1,0 +1,124 @@
+.wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 130px 0 130px;
+}
+
+/* Header styles start */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.header__left {
+    display: flex;
+}
+.header__logo {
+    margin-right: 30px;
+}
+.header__lang {
+    display: flex;
+    align-items: center;
+}
+.header__lang-link {
+    text-decoration: none;
+}
+.header__lang-link:first-child {
+    margin-right: 10px;
+}
+.header__lang-link:visited {
+    color: #fff;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+}
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu-links {
+    color: #fff;
+    text-decoration: none;
+}
+.header__menu-links:hover, .header__menu-links:active, .header__menu-links:focus {
+    color: rgb(144, 144, 144);
+}
+.header__menu-item {
+    margin-right: 20px;
+}
+.header__number-pic {
+    margin-right: 5px;
+}
+.header__number-txt {
+    margin-right: 35px;
+
+}
+.header__buy-link {
+    padding: 5px 15px;
+    background: #FF1A05;
+    border-radius: 20px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+}
+.header__buy-link:hover, .header__buy-link:focus, .header__buy-link:active {
+    opacity: 80%;
+}
+/* Header styles end */
+
+/* Main styles start */
+.main {
+    margin-top: -4px;
+    background: url(../img/background.png);
+    background-size: cover;
+}
+.main__content {
+    padding-top: 200px;
+}
+.main__title {
+    margin-bottom: 18px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+.main__subtitle {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+.main__more-link {
+    margin-bottom: 230px;
+    display: block;
+    padding: 10px 0;
+    max-width: 140px;
+    background: #FF1A05;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.main__more-link:hover, .main__more-link:focus, .main__more-link:active {
+    opacity: 80%;
+}
+.main__roll {
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+}
+.main__roll-pic {
+    margin-right: 4px;
+    padding-top: 2px;
+    max-width: fit-content;
+}
+.main__roll-txt {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+/* Main styles end */
