@@ -30,12 +30,16 @@ body {
 .header__lang-link {
     text-decoration: none;
     color: #fff;
+    transition: 0.2s all;
 }
 .header__lang-link:first-child {
     margin-right: 10px;
 }
 .header__lang-link:visited {
     color: #fff;
+}
+.header__lang-link:hover, .header__lang-link:focus, .header__lang-link:active {
+    padding-bottom: 5px;
 }
 .header__right {
     display: flex;
