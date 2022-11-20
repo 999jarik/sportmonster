@@ -78,8 +78,6 @@ body {
 }
 .header__buy-link:hover, .header__buy-link:focus, .header__buy-link:active {
     opacity: 100%;
-    background: rgb(255,31,10);
-    background: linear-gradient(0deg, rgba(255,31,10,0.885329131652661) 27%, rgba(255,97,28,1) 79%);
 }
 /* Header styles end */
 
@@ -120,8 +118,6 @@ body {
 }
 .main__more-link:hover, .main__more-link:focus, .main__more-link:active {
     opacity: 100%;
-    background: rgb(255,31,10);
-    background: linear-gradient(0deg, rgba(255,31,10,0.885329131652661) 27%, rgba(255,97,28,1) 79%);
 }
 .main__roll {
     margin-bottom: 160px;
@@ -309,6 +305,7 @@ body {
     margin: 0 auto;
     text-align: center;
     background: #FF1A05;
+    opacity: 85%;
     border-radius: 20px;
     text-decoration: none;
     color: #fff;
@@ -318,8 +315,7 @@ body {
     transition: 0.2s all;
 }
 .offers__item-button:hover, .offers__item-button:focus, .offers__item-button:active {
-    background: rgb(255,31,10);
-    background: linear-gradient(0deg, rgba(255,31,10,0.885329131652661) 27%, rgba(255,97,28,1) 79%);
+    opacity: 100%;
 }
 /* Offers styles end */
 
