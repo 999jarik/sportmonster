@@ -152,6 +152,8 @@ body {
 .about {
     min-height: 710px;
     background: url(../img/background_about.png);
+    background-size: cover;
+}
 }
 .about__title {
     padding-top: 230px;
