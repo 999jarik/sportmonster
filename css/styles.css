@@ -299,6 +299,7 @@ body {
     margin: 0 auto;
 }
 .offers__item-button {
+    cursor: pointer;
     padding: 9px 0;
     display: block;
     margin: 0 auto;
@@ -315,6 +316,146 @@ body {
 }
 .offers__item-button:hover, .offers__item-button:focus, .offers__item-button:active {
     opacity: 100%;
+}
+.offers__try {
+    min-height: 500px;
+    max-width: 690px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.try-title {
+    padding: 40px 40px 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    font-family: 'Montserrat', sans-serif;
+}
+.choice {
+    display: flex;
+    justify-content: space-between;
+    max-width: 340px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    background: linear-gradient(180deg, rgba(235, 232, 250, 0.592) 0%, rgba(251, 250, 254, 0.8) 100%);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.choice-name {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choice-name span {
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choice-change {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EB3223;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.try-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.your-name,
+.your-mail {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-name,
+.input-email {
+    margin-bottom: 30px;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    border: 1px solid #EB3223;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+}
+.input-name::placeholder,
+.input-email::placeholder {
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.agree {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.agree-check {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.text-agree {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+.text-agree::before {
+    content: '';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.agree>input:not(:disabled):not(:checked)+span:hover::before {
+    border-color: #ff975a;
+}
+.agree>input:checked+span::before {
+    border-color: #000000;
+    background-image: url(../img/svg/check-agree.svg);
+}
+.link-agree {
+    margin-left: 6px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EB3223;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.try__reg {
+    margin-bottom: 50px;
+    cursor: pointer;
+    min-height: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #FF1A05;
+    border: none;
+    border-radius: 20px;
+}
+.try__reg:hover, .try__reg:active, .try-reg:focus {
+    background: #bd1000d8;
 }
 /* Offers styles end */
 

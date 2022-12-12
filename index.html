@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/fonts_styles.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="shortcut icon" href="img/svg/favicon.svg" type="image/x-icon">
 </head>
 <body>
@@ -114,7 +115,7 @@
                     <div class="offers__item-price">
                         <p class="offers__price-txt">1900 грн / місяць</p>
                     </div>
-                    <a href="" class="offers__item-button">Обрати</a>
+                    <a class="offers__item-button select-sport">Обрати</a>
                 </div>
                 <div class="offers__item">
                     <h4 class="offers__item-title">Абонемент Sport <span>plus+</span></h4>
@@ -131,7 +132,7 @@
                     <div class="offers__item-price">
                         <p class="offers__price-txt">2900 грн / місяць</p>
                     </div>
-                    <a href="" class="offers__item-button">Обрати</a>
+                    <a class="offers__item-button select-plus">Обрати</a>
                 </div>
                 <div class="offers__item">
                     <h4 class="offers__item-title">Абонемент Premium & SPA</h4>
@@ -149,8 +150,23 @@
                     <div class="offers__item-price">
                         <p class="offers__price-txt">5000 грн / місяць</p>
                     </div>
-                    <a href="" class="offers__item-button">Обрати</a>
+                    <a class="offers__item-button select-premium">Обрати</a>
                 </div>
+            </div>
+            <div class="offers__try offers__sport">
+                <h2 class="try-title">Записатися на тренування</h2>
+                <div class="choice">
+                    <div class="choice-name">Обраний елемент: <span> Sport</span></div>
+                    <a href="" class="choice-change">Змінити</a>
+                </div>
+                <form action="#" method="post" class="try-form">
+                    <p class="your-name">Ваше ім'я</p>
+                    <input type="text" name="firstName" placeholder="Ваше ім'я" class="input-name">
+                    <p class="your-mail">Ваш e-mail</p>
+                    <input type="email" name="email" placeholder="Наприклад, username@gmail.com" class="input-email">
+                    <label class="agree"><input type="checkbox" name="agree" class="agree-check"><span class="text-agree">Погоджуюсь з <a href="#" class="link-agree"> умовами сервісу</a></span></label>
+                    <input type="submit" value="Зареєструватись" class="try__reg">
+                </form>
             </div>
         </div>
     </section>
