@@ -115,7 +115,7 @@
                     <div class="offers__item-price">
                         <p class="offers__price-txt">1900 грн / місяць</p>
                     </div>
-                    <a class="offers__item-button select-sport">Обрати</a>
+                    <a href="#offers__sport" class="offers__item-button select-sport">Обрати</a>
                 </div>
                 <div class="offers__item">
                     <h4 class="offers__item-title">Абонемент Sport <span>plus+</span></h4>
@@ -132,7 +132,7 @@
                     <div class="offers__item-price">
                         <p class="offers__price-txt">2900 грн / місяць</p>
                     </div>
-                    <a class="offers__item-button select-plus">Обрати</a>
+                    <a href="#offers__plus" class="offers__item-button select-plus">Обрати</a>
                 </div>
                 <div class="offers__item">
                     <h4 class="offers__item-title">Абонемент Premium & SPA</h4>
@@ -150,13 +150,52 @@
                     <div class="offers__item-price">
                         <p class="offers__price-txt">5000 грн / місяць</p>
                     </div>
-                    <a class="offers__item-button select-premium">Обрати</a>
+                    <a href="#offers__premium" class="offers__item-button select-premium">Обрати</a>
                 </div>
             </div>
-            <div class="offers__try offers__sport">
+        </div>
+        <div class="back-offer" id="offers__sport">
+            <div class="offers__try">
+                <a href="#offers" class="close-offer"></a>
                 <h2 class="try-title">Записатися на тренування</h2>
                 <div class="choice">
                     <div class="choice-name">Обраний елемент: <span> Sport</span></div>
+                    <a href="" class="choice-change">Змінити</a>
+                </div>
+                <form action="#" method="post" class="try-form">
+                    <p class="your-name">Ваше ім'я</p>
+                    <input type="text" name="firstName" placeholder="Ваше ім'я" class="input-name">
+                    <p class="your-mail">Ваш e-mail</p>
+                    <input type="email" name="email" placeholder="Наприклад, username@gmail.com" class="input-email">
+                    <label class="agree"><input type="checkbox" name="agree" class="agree-check"><span class="text-agree">Погоджуюсь з <a href="#" class="link-agree"> умовами сервісу</a></span></label>
+                    <input type="submit" value="Зареєструватись" class="try__reg">
+                </form>
+            </div>
+        </div>
+        <div class="back-offer" id="offers__plus">
+            <div class="offers__try">
+                <a href="#offers" class="close-offer"></a>
+                <h2 class="try-title">Записатися на тренування</h2>
+                <div class="choice">
+                    <div class="choice-name">Обраний елемент: <span> Sport plus+</span></div>
+                    <a href="" class="choice-change">Змінити</a>
+                </div>
+                <form action="#" method="post" class="try-form">
+                    <p class="your-name">Ваше ім'я</p>
+                    <input type="text" name="firstName" placeholder="Ваше ім'я" class="input-name">
+                    <p class="your-mail">Ваш e-mail</p>
+                    <input type="email" name="email" placeholder="Наприклад, username@gmail.com" class="input-email">
+                    <label class="agree"><input type="checkbox" name="agree" class="agree-check"><span class="text-agree">Погоджуюсь з <a href="#" class="link-agree"> умовами сервісу</a></span></label>
+                    <input type="submit" value="Зареєструватись" class="try__reg">
+                </form>
+            </div>
+        </div>
+        <div class="back-offer" id="offers__premium">
+            <div class="offers__try">
+                <a href="#offers" class="close-offer"></a>
+                <h2 class="try-title">Записатися на тренування</h2>
+                <div class="choice">
+                    <div class="choice-name">Обраний елемент: <span> Premium & SPA</span></div>
                     <a href="" class="choice-change">Змінити</a>
                 </div>
                 <form action="#" method="post" class="try-form">
