@@ -62,6 +62,15 @@ body {
 .header__number-pic {
     margin-right: 5px;
 }
+.header__number-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+.header__number-link:hover {
+    text-decoration: underline;
+}
 .header__number-txt {
     margin-right: 35px;
 
